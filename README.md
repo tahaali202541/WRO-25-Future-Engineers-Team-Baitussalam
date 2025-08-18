@@ -5,16 +5,15 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 
 # Table Of Contents
 .TEAM INTRODUCTION
-1. [WHO ARE WE?](https://github.com/Sikandar-005/WRO-2025-Future-Engineers---TEAM-BAITUSSALAM?tab=readme-ov-file#who-are-we)
-2. [Where DO WE COME FROM(The participants)?](https://github.com/Sikandar-005/WRO-2025-Future-Engineers---TEAM-BAITUSSALAM/blob/main/README.md#-where-do-we-come-fromthe-participants)
-3. [Our Journey](https://github.com/Sikandar-005/WRO-2025-Future-Engineers---TEAM-BAITUSSALAM?tab=readme-ov-file#-our-journey-)
+1. [WHO ARE WE?](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#who-are-we)
+2. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#our-journey-)
 
-.HARDWARE and COMPONENTS
-1. [Raspberry pi](https://github.com/user-attachments/assets/f6b54607-f8fc-4b6a-986e-6b2b88c25254)
-2. [Camera Module](https://github.com/user-attachments/assets/0c51fa4a-6ccb-4bd7-aa29-6db345808e71)
-3. [MPU-3250](https://github.com/user-attachments/assets/c8154028-0de9-4fd7-9c22-bdc2e1b53ec4)
-4. [Gt2 pulley and timing belt](https://github.com/user-attachments/assets/f114bbc2-4523-4d2e-b8ea-52cbe363f821)
-5. [DC Gear motor](https://github.com/user-attachments/assets/a6dd3591-e93e-451e-b14c-a7cabe141219)
+# [Mobility Management](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#mobility-management)
+1. [Motor Selection](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#motor-selection)
+2. [Steering Mechanism](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#steering-mechanism)
+3. [Chassis](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#chassis)
+4. [Mounting](https://github.com/user-attachments/assets/f114bbc2-4523-4d2e-b8ea-52cbe363f821)
+5. [Engineering Principals](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#engineering-principals)
 
 
 
@@ -41,6 +40,58 @@ We're using this DC gear motor with an encoder because it's the perfect tool for
 
 ## The reason for selection
 We chose this servo motor for its robust performance and durability. Its high torque and metal gears are essential for the demanding tasks of our robot, while its affordability and availability make it a practical and reliable choice for our project's development.
+
+
+# Steering Mechanism
+## Parallel Steering Mechanism(Lego)
+![Parallel steering mechanism(LEGO)](https://github.com/user-attachments/assets/35e0c66f-db4e-409f-828a-46ba96dee5bf)
+This steering system, built using LEGO Technic components, ensures that both front wheels of the robot always turn by the same amount and in the same direction. It's a simple, reliable design where a motor—typically a servo like the MG996R—pushes or pulls on a central arm. This motion is then transferred through a series of connected linkages that turn the wheel hubs. The symmetrical layout of these linkages keeps the wheels parallel throughout the entire steering range, which is perfect for consistent and predictable movement.
+
+# Chassis
+
+Our chassis is a rigid LEGO Technic frame designed for stability and modularity. It features a rear-wheel drive system powered by DC gear motors for consistent motion. For steering, we implemented a parallel steering mechanism driven by the MG996R servo, ensuring precise and predictable turns. All sensors are strategically mounted to provide optimal track visibility, and the overall design maintains a low center of gravity for balanced performance.
+
+- Material: lightweight and strong usnig parts made with PETG and PLA, Lego blocks, and Acrallyic sheet
+- Shape: rectangular stability
+- Size: fits robot components and competition rules
+- Motor & wheel mounting: securely attached with brackets/screws
+- Component placement: Arduino, sensors, battery positioned for balance
+- Stability: reinforced to prevent tipping or bending
+- Easy maintenance: components are accessible for troubleshooting
+
+# Mounting
+
+- All components securely fixed on the chassis using screws, nuts, and 3D-printed brackets
+- Raspberry Pi mounted centrally for balance; camera at front for clear view
+- Sensors and IMU placed near center of gravity for accuracy
+- Motors aligned with wheels and pulleys for smooth motion
+- Wires neatly routed to avoid interference with moving parts
+- Components accessible for easy maintenance and troubleshooting
+
+# Engineering Principals
+
+1. Wheel RPM from motor:
+Wheel_RPM = Motor_RPM / Gear_Ratio
+
+2. Robot linear speed:
+v = (2 * π * Wheel_radius * Wheel_RPM) / 60
+
+3. Wheel torque:
+Wheel_Torque = Motor_Torque * Gear_Ratio
+
+4. Force at wheels:
+F = Wheel_Torque / Wheel_radius
+
+5. Mechanical power:
+P = Torque * Angular_speed
+P = F * v
+
+6. Motor electrical power:
+P_elec = P_mech / Motor_efficiency
+I = P_elec / Voltage
+
+​
+
 
 
 
