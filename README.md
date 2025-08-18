@@ -14,7 +14,7 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 3. [Chassis](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#chassis)
 4. [Mounting](https://github.com/user-attachments/assets/f114bbc2-4523-4d2e-b8ea-52cbe363f821)
 5. [Engineering Principals](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#engineering-principals)
-
+# [Power and Sense Management]
 
 
 
@@ -52,6 +52,24 @@ This steering system, built using LEGO Technic components, ensures that both fro
 Our chassis is a mixture of components made of lego blocks, 3D designs made by PETG as well as PLA, and also Acryllic sheet espically designed for stability and modularity. It features a rear-wheel drive system powered by DC gear motors for consistent motion. For steering, we implemented a parallel steering mechanism driven by the MG996R servo, ensuring precise and predictable turns. All sensors are strategically mounted to provide optimal track visibility, and the overall design maintains a low center of gravity for balanced performance.
 
 - Material: lightweight and strong usnig parts made with PETG and PLA, Lego blocks, and Acrallyic sheet
+
+| PETG | Specifications |
+|------|----------------|
+| ![istockphoto-2169621495-612x612](https://github.com/user-attachments/assets/ce83a410-5170-49d6-bf49-9376ce2b19a7) | • Definition: A thermoplastic combining the easy printing of PLA with the strength of ABS. <br> • Key Properties: Strong, durable, slightly flexible, and more heat/chemical resistant than PLA. <br> • Advantages: Good for mounts and moving parts, excellent layer adhesion, less warping than ABS. <br> • Limitations: Can string during printing, heavier and softer than PLA. <br> • Print Settings: Nozzle 230–250 °C, Bed 70–80 °C. |
+
+| PLA | Specifications |
+|------|----------------|
+| ![images](https://github.com/user-attachments/assets/aaae6af8-e30e-462a-9c2f-0a3c510f4e44) | •  Definition: A biodegradable thermoplastic made from renewable resources like corn starch. <br> • Key Properties: Easy to print, lightweight, good surface finish, but brittle. <br> • Advantages: Low warping, ideal for prototypes and lightweight robot parts. <br> • Limitations: Low heat resistance, weaker under stress compared to PETG/ABS. <br> • Print Settings: Nozzle 190–220 °C, Bed 20–60 °C. |
+
+| Arcylic Sheet | Specifications |
+|------|----------------|
+| ![images (1)](https://github.com/user-attachments/assets/334ceaf3-b745-4f87-bee2-9ad51a4ab8d4) | •  Definition: Acrylic (PMMA) is a lightweight, transparent plastic often used as a glass substitute. <br> • Key Properties: Rigid, smooth, lightweight, and visually clear. <br> • Usage in Our Robot: We used acrylic sheets for both the upper and lower decks to provide a stable, flat surface for mounting components. <br> • Advantages: Easy to cut, lightweight, gives a neat look, and provides good electrical insulation. <br> • Limitations: Brittle compared to PETG/PLA (can crack under heavy stress). |
+
+| Lego blocks | Specifications |
+|------|----------------|
+| ![images (2)](https://github.com/user-attachments/assets/07c342e6-875c-43b3-ba6e-4deda8ebb5fa) | <br> •  Definition: Standard LEGO Technic blocks used as modular mechanical components. <br> • Usage in Our Robot: We used LEGO parts to build the steering mechanism, as they provide precise alignment and easy prototyping. <br> • Advantages: Strong interlocking fit, reusable, lightweight, and allows quick adjustments during testing. |
+
+
 - Shape: rectangular stability
 - Size: fits robot components and competition rules
 - Motor & wheel mounting: securely attached with brackets/screws
@@ -66,7 +84,8 @@ Our chassis is a mixture of components made of lego blocks, 3D designs made by P
 - Sensors and IMU placed near center of gravity for accuracy
 - Motors aligned with wheels and pulleys for smooth motion
 - Wires neatly routed to avoid interference with moving parts
-- Components accessible for easy maintenance and troubleshooting
+- Components accessible for easy maintenance and troubleshooting <br>
+ Link for all the mounts and components-> [(Models)](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/tree/main/Models)
 
 # Engineering Principals
 
@@ -90,7 +109,10 @@ P = F * v
 P_elec = P_mech / Motor_efficiency
 I = P_elec / Voltage
 
-​
+
+# Power and Sense Managemnet
+
+
 
 
 
