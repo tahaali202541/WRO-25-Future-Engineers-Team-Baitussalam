@@ -49,7 +49,7 @@ This steering system, built using LEGO Technic components, ensures that both fro
 
 # Chassis
 
-Our chassis is a rigid LEGO Technic frame designed for stability and modularity. It features a rear-wheel drive system powered by DC gear motors for consistent motion. For steering, we implemented a parallel steering mechanism driven by the MG996R servo, ensuring precise and predictable turns. All sensors are strategically mounted to provide optimal track visibility, and the overall design maintains a low center of gravity for balanced performance.
+Our chassis is a mixture of components made of lego blocks, 3D designs made by PETG as well as PLA, and also Acryllic sheet espically designed for stability and modularity. It features a rear-wheel drive system powered by DC gear motors for consistent motion. For steering, we implemented a parallel steering mechanism driven by the MG996R servo, ensuring precise and predictable turns. All sensors are strategically mounted to provide optimal track visibility, and the overall design maintains a low center of gravity for balanced performance.
 
 - Material: lightweight and strong usnig parts made with PETG and PLA, Lego blocks, and Acrallyic sheet
 - Shape: rectangular stability
