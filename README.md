@@ -20,10 +20,11 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 
 # TEAM INTRODUCTION
 ## Who are we?
-Our team consists of three memebers-Taha Umer, Zulqarnain, and Sikandar.
-
+We are a team from Pakitan representing our country/institute. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the competition. It is also our first time participating in WRO.
 ## Our journey 🚀
-
+Our journey strated when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth full of problems, misatkes, headaches, and even moments of 'Just leaving!' but what makes our jouney interseting are moements of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and componets but it also holds our feelings our way thriug all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.
+- THE HURDLES
+Eveyting seems too easy and simple until you are hands-on with it. Although, it was not our first time participating in any robotics competition, we have partipated in many national competitions before such as NERC(For the last 5 years), Headstarts, Air university and many other. 
 
 # Mobility Management
 ## Motor Selection
