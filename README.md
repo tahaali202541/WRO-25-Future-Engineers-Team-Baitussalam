@@ -14,17 +14,18 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 3. [Chassis](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#chassis)
 4. [Mounting](https://github.com/user-attachments/assets/f114bbc2-4523-4d2e-b8ea-52cbe363f821)
 5. [Engineering Principals](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#engineering-principals)
-# [Power and Sense Management]
+# [Power and Sense Management]()
 
 
 
 # TEAM INTRODUCTION
 ## Who are we?
-We are a team from Pakitan representing our country/institute. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the competition. It is also our first time participating in WRO.
+We are a team from Pakitan representing our country/institute. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the Future Engineers category. 
 ## Our journey 🚀
-Our journey strated when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth full of problems, misatkes, headaches, and even moments of 'Just leaving!' but what makes our jouney interseting are moements of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and componets but it also holds our feelings our way thriug all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.
-- THE HURDLES
-Eveyting seems too easy and simple until you are hands-on with it. Although, it was not our first time participating in any robotics competition, we have partipated in many national competitions before such as NERC(For the last 5 years), Headstarts, Air university and many other. 
+Our journey strated when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth full of problems, misatkes, headaches, and even moments of 'Just leaving!' but what makes our jouney interesting are moements of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and components but it also holds our feelings our way through all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.<br>
+- THE HURDLES <br>
+## 1. Steering Mechanism
+Eveyting seems too easy and simple until you are hands-on with it. Although, it was not our first time participating in any robotics competition, we have partipated in many national competitions before such as NERC(For the last 4 years), Headstarts, Air university and many other but this competition hit different. Speaking faithfully, the journey had just barely begun that 'The Steering Mechanism' stood tall infront of us. We had thought of using 'Ackerman Steering Mechanism' which first seemed easy but after working on many protytypes we changed our mind and decided to use the simple 'Parallel Steering Mechanism' made with Lego Blocks. This was the first problem that we faced.
 
 # Mobility Management
 ## Motor Selection
@@ -112,6 +113,23 @@ I = P_elec / Voltage
 
 
 # Power and Sense Managemnet
+## POWER SOURCE
+| Battery | Specifications |
+|---------|----------------|
+|  |  |
+
+## Sensors Used
+
+
+
+
+## Wiring Diagram
+![visual circuit diagram](https://github.com/user-attachments/assets/1ea23832-5366-4719-8e31-d01cfa2f2ce0)
+
+
+
+
+
 
 
 
