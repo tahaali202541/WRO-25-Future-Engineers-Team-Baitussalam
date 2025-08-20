@@ -26,7 +26,7 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 # TEAM INTRODUCTION
 ## Who are we?
 We are a team from Pakitan representing our country/institute. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the Future Engineers category. 
-## Our journey 🚀
+## Our journey 
 Our journey strated when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth full of problems, misatkes, headaches, and even moments of 'Just leaving!' but what makes our jouney interesting are moements of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and components but it also holds our feelings our way through all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.<br>
 ## THE HURDLES <br>
  1. STEERING MECHANISM
@@ -41,9 +41,13 @@ Eveyting seems too easy and simple until you are hands-on with it. Although, it 
 ## The reason for selection
 We're using this DC gear motor with an encoder because it's the perfect tool for precise movement. The gear motor itself gives us a lot of power in a small package, while the built-in encoder acts like a digital eye, letting the robot know exactly how far and how fast its wheels are turning. This real-time feedback is crucial for tasks like accurate navigation and maintaining a steady speed, which are a big part of the challenge.
 
-| MOTOR | Specification |
+| MOTOR |  | Specification |
 |-------|---------------|
-| ![Servo Motor](https://github.com/user-attachments/assets/ea462489-d1eb-4ebb-8d32-c183a7b89744) | <br> • Model: MG996R <br> • Type: High Torque Digital Servo Motor <br> • Operating Voltage: 4.8V - 7.2V (often listed as 5V) <br> • Stall Torque (at 6V): Approximately 10 kg·cm to 13 kg·cm (kilogram-force per centimeter) <br> • Operating Speed (at 6V): Around 0.16 sec/60° <br> • Gear Material: Metal gears <br> • Dimensions: Approximately 40.7mm x 19.7mm x 42.9mm <br> • Weight: Around 55g <br> • Rotation: 0° to 180°  |
+
+| Image | Specs |
+|-------|-------|
+| <img src="https://raw.githubusercontent.com/username/repo/main/docs/img/petg.png" width="150"/> | Strong, durable, slightly flexible |
+| <img  src="https://raw.githubusercontent.com/username/repo/main/docs/img/servo.png" width="120"/> | Used for steering, precise angular control |
 
 ## The reason for selection
 We chose this servo motor for its robust performance and durability. Its high torque and metal gears are essential for the demanding tasks of our robot, while its affordability and availability make it a practical and reliable choice for our project's development.
@@ -128,10 +132,9 @@ Reason for Selection :
 ## Sensors Used
 
 
-
-| Sensors | Specifications |
+| Sharp IR sensor(Long Range) | Specifications |
 |---------|----------------|
-|  |  |
+| ![Sharp IR sensor(Long Range)](https://github.com/user-attachments/assets/760067e4-7547-49fe-ae45-c57afee131b1) |  |
 
 Reason for Selection :
 
