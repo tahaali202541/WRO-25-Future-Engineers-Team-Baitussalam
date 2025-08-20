@@ -14,8 +14,13 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 3. [Chassis](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#chassis)
 4. [Mounting](https://github.com/user-attachments/assets/f114bbc2-4523-4d2e-b8ea-52cbe363f821)
 5. [Engineering Principals](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#engineering-principals)
-# [Power and Sense Management]()
 
+# [Power and Sense Management](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#power-and-sense-managemnet)
+1.[POWER SOURCE](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#power-source)<br>
+2.[Sensors Used](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#sensors-used)<br>
+3.[Wiring Diagram](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/edit/main/README.md#wiring-diagram)<br>
+
+# Obstacle Management(Open challenge round)
 
 
 # TEAM INTRODUCTION
