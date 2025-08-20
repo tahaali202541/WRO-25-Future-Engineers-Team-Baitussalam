@@ -118,13 +118,32 @@ I = P_elec / Voltage
 |---------|----------------|
 |  |  |
 
+Reason for Selection :
+
 ## Sensors Used
 
+
+
+| Sensors | Specifications |
+|---------|----------------|
+|  |  |
+
+Reason for Selection :
 
 
 
 ## Wiring Diagram
 ![visual circuit diagram](https://github.com/user-attachments/assets/1ea23832-5366-4719-8e31-d01cfa2f2ce0)
+
+
+# Obstacle Management(Open challenge round)
+
+## Strategy for Open Challenge round
+
+Open Challenge Round, which is simpler and easier than The Obstacle avoiding Round and does not need very big algorithms, so we decided to use a very simple 'Stategy'. For the Open Challenge round we are using PD for keeping our Robot at a specific distance from the outer and the inner walls, using the IR sensors. 
+
+
+
 
 
 
