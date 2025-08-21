@@ -6,8 +6,9 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 # Content Table
 ## [TEAM INTRODUCTION](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
 1. [WHO ARE WE?](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#who-are-we)
-2. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
-3. [Our Goal]() 
+2. [Our Goal](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-goal) 
+3. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-journey)
+
 
 ## [Mobility Management](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#mobility-management-1)
 1. [Motor Selection](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#motor-selection)
