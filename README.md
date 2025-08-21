@@ -3,7 +3,7 @@
 
 This repository presents our documentation of the WRO 25(Future Engineers).
 
-# Table Of Contents
+# Content Table
 # [TEAM INTRODUCTION](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
 1. [WHO ARE WE?](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#who-are-we)
 2. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
@@ -52,7 +52,7 @@ We chose this servo motor for its robust performance and durability. Its high to
 
 # Steering Mechanism
 ## Parallel Steering Mechanism(Lego)
-![Parallel steering mechanism(LEGO)](https://github.com/user-attachments/assets/35e0c66f-db4e-409f-828a-46ba96dee5bf)
+![Parallel steering mechanism(LEGO)](<img src="https://github.com/user-attachments/assets/35e0c66f-db4e-409f-828a-46ba96dee5bf" width="300" height="350"/>)
 This steering system, built using LEGO Technic components, ensures that both front wheels of the robot always turn by the same amount and in the same direction. It's a simple, reliable design where a motor—typically a servo like the MG996R—pushes or pulls on a central arm. This motion is then transferred through a series of connected linkages that turn the wheel hubs. The symmetrical layout of these linkages keeps the wheels parallel throughout the entire steering range, which is perfect for consistent and predictable movement.
 
 # Chassis
@@ -131,7 +131,7 @@ Reason for Selection :
 
 | Sharp IR sensor(Long Range) | Specifications |
 |---------|----------------|
-| ![Sharp IR sensor(Long Range)](https://github.com/user-attachments/assets/760067e4-7547-49fe-ae45-c57afee131b1) |  |
+| <img src="https://github.com/user-attachments/assets/760067e4-7547-49fe-ae45-c57afee131b1" width="300" height="350"/>|
 
 Reason for Selection :
 
