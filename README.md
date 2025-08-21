@@ -25,7 +25,7 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 ## [Obstacle Management(Open challenge round)](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#obstacle-managementopen-challenge-round-1)
 1. [Strategy for Open Challenge round](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#strategy-for-open-challenge-round)
 2. [Flow Diagram](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#flow-diagram)
-3. 
+3. [Code for Open Challenge Round](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#code-for-open-challenge-round)
 
 
 # TEAM INTRODUCTION
@@ -40,7 +40,18 @@ Our main goal is to design an autonomous robot for the WRO Future Engineers chal
 Our journey started when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth, full of problems, mistakes, headaches, and even moments of 'Just leaving!' but what makes our jouney interesting are the moments of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and components but it also holds our feelings of our way through all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.<br>
 ## THE HURDLES <br>
 1. STEERING MECHANISM <br>
-Eveyting seems too easy and simple until you are hands-on with it. Although, it was not our first time participating in any robotics competition, we have partipated in many national competitions before such as NERC(For the last 4 years), Headstarts, Air university and many other but this competition hit different. Speaking faithfully, the journey had just barely begun that 'The Steering Mechanism' stood tall infront of us. We had thought of using 'Ackerman Steering Mechanism' which first seemed easy but after working on many protytypes we changed our mind and decided to use the simple 'Parallel Steering Mechanism' made with Lego Blocks. This was the first problem that we faced.
+Eveyting seems too easy and simple until you are hands-on with it. Although, it was not our first time participating in any robotics competition, we have partipated in many national competitions before such as NERC(For the last 4 years), Headstarts, Air university and many other but this competition hit different. Speaking faithfully, the journey had just barely begun that 'The Steering Mechanism' stood tall infront of us. We had thought of using 'Ackerman Steering Mechanism' which first seemed easy but after working on many protytypes we changed our mind and decided to use the simple 'Parallel Steering Mechanism' made with Lego Blocks, the story does not end here — the Parallel Steering Mechanism turned out to be unnecessary and offered no real benefit. Than at last, after a lot of research we finally dediced to use "Anti Akerman Steering Mechanism".
+
+2. The Pulley
+Just the first problem had finished that that the pulley said "Me too". After a few tests the The rod of pulley started making unnatural sounds and eventually the problem became inevatble. The pulley led us to get a duplicate of our base — a better one. and we had to change the whole of the mechanism.
+
+We faced many problems, but a solution was always there just hiding behind our patience. 
+
+
+Now the National Championship is just a few days ahead and our team is full of hope. May Allah make us able of achieving what our hardwork and sacrifice really deserves. I mean the "The National Championship". It does not matter wheter you lose or win what matters is what you learnt, your hardwork. Therefore it is said, "It is not always about the destination, but the journey that you take"
+
+NATIONALS HERE WE COME!!!
+
 
 # Mobility Management
 ## Motor Selection
@@ -61,7 +72,7 @@ We chose this servo motor for its robust performance and durability. Its high to
 
 
 # Steering Mechanism
-## Parallel Steering Mechanism(Lego)
+## Anti-Ackerman Steering Mechanism
 
 
 # Chassis
@@ -175,7 +186,7 @@ Open Challenge Round, which is simpler and easier than The Obstacle avoiding Rou
 
 # THE LAST WORDS
 
-At last, I would like to thank the organization and our department for giving us such a great opportunity for partiticpating in WRO 25. This competition helped us a lot in building ourself in amny fields. Special Thanks our mentors, institute, and friends for their guidance and support throughout this project. 
+At last, I would like to thank the organization and our department for giving us such a great opportunity for partiticpating in WRO 25. This competition helped us a lot in building ourself in many fields. Special Thanks our mentors, institute, and friends for their guidance and support throughout this project. 
 
 
 
