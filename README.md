@@ -151,6 +151,7 @@ Open Challenge Round, which is simpler and easier than The Obstacle avoiding Rou
 ## Flow Diagram
 
 
+<img src="https://github.com/user-attachments/assets/65f93456-d40e-4ac2-99c5-209b61837fdf" width="300" height="350"/>
 
 
 
