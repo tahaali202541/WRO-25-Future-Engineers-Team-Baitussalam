@@ -52,7 +52,7 @@ We chose this servo motor for its robust performance and durability. Its high to
 
 # Steering Mechanism
 ## Parallel Steering Mechanism(Lego)
-![Parallel steering mechanism(LEGO)](<img src="https://github.com/user-attachments/assets/35e0c66f-db4e-409f-828a-46ba96dee5bf" width="300" height="350"/>)
+<img src="https://github.com/user-attachments/assets/35e0c66f-db4e-409f-828a-46ba96dee5bf" width="400" height="450"/> <br>
 This steering system, built using LEGO Technic components, ensures that both front wheels of the robot always turn by the same amount and in the same direction. It's a simple, reliable design where a motor—typically a servo like the MG996R—pushes or pulls on a central arm. This motion is then transferred through a series of connected linkages that turn the wheel hubs. The symmetrical layout of these linkages keeps the wheels parallel throughout the entire steering range, which is perfect for consistent and predictable movement.
 
 # Chassis
@@ -131,7 +131,7 @@ Reason for Selection :
 
 | Sharp IR sensor(Long Range) | Specifications |
 |---------|----------------|
-| <img src="https://github.com/user-attachments/assets/760067e4-7547-49fe-ae45-c57afee131b1" width="300" height="350"/>|
+| <img src="https://github.com/user-attachments/assets/760067e4-7547-49fe-ae45-c57afee131b1" width="300" height="350"/>| • Model: Sharp GP2Y0A02YK0F (Long Range IR Sensor) <br> • Detection Range: 20 cm – 150 cm <br> • Output Type: Analog voltage (distance → voltage curve, non-linear) <br> • Operating Voltage: 4.5V – 5.5V (typ. 5V) <br> • Current Consumption: ~33 mA (typical) <br> • Response Time: ~39 ms <br> • Output Voltage Range: ~2.8V (near) to ~0.4V (far) <br> • Dimensions: ~29.5 × 13 × 21.6 mm <br> • Applications: Obstacle detection, distance measurement for navigation, wall following |
 
 Reason for Selection :
 
@@ -145,7 +145,7 @@ Reason for Selection :
 
 ## Strategy for Open Challenge round
 
-Open Challenge Round, which is simpler and easier than The Obstacle avoiding Round and does not need very big algorithms, so we decided to use a very simple 'Stategy'. For the Open Challenge round we are using PD for keeping our Robot at a specific distance from the outer and the inner walls, using the IR sensors. 
+Open Challenge Round, which is simpler and easier than The Obstacle avoiding Round and does not need very big algorithms, so we decided to use a very simple 'Stategy'. For the Open Challenge round we are using PD for keeping our Robot at a specific distance from the outer and the inner walls, using the IR sensors. The IR sensors help the Robot mantain a safe ditance from the inner and outer boundaries. The IR sensor sends data to the Arduino Nano and than the Arduino using PD sets the direction of the Robot through the Servo.
 
 
 
