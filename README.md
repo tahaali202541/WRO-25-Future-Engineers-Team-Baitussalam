@@ -52,8 +52,7 @@ We chose this servo motor for its robust performance and durability. Its high to
 
 # Steering Mechanism
 ## Parallel Steering Mechanism(Lego)
-<img src="https://github.com/user-attachments/assets/35e0c66f-db4e-409f-828a-46ba96dee5bf" width="400" height="450"/> <br>
-This steering system, built using LEGO Technic components, ensures that both front wheels of the robot always turn by the same amount and in the same direction. It's a simple, reliable design where a motor—typically a servo like the MG996R—pushes or pulls on a central arm. This motion is then transferred through a series of connected linkages that turn the wheel hubs. The symmetrical layout of these linkages keeps the wheels parallel throughout the entire steering range, which is perfect for consistent and predictable movement.
+
 
 # Chassis
 
