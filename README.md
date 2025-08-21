@@ -7,6 +7,7 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 ## [TEAM INTRODUCTION](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
 1. [WHO ARE WE?](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#who-are-we)
 2. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
+3. [Our Goal]() 
 
 ## [Mobility Management](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#mobility-management-1)
 1. [Motor Selection](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#motor-selection)
@@ -19,15 +20,22 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 1. [Power Source](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#power-source)
 2. [Sensors Used](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#sensors-used)
 3. [Wiring Diagram](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#wiring-diagram)
+4. [Bill of Material](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#bill-for-materials)
 
 ## [Obstacle Management(Open challenge round)](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#obstacle-managementopen-challenge-round-1)
-1.[Strategy for Open Challenge round](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#strategy-for-open-challenge-round)
-
+1. [Strategy for Open Challenge round](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#strategy-for-open-challenge-round)
+2. [Flow Diagram](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#flow-diagram)
+3. 
 
 
 # TEAM INTRODUCTION
 ## Who are we?
 We are a team from Pakitan representing our country/institute. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the Future Engineers category. 
+
+## Our Goal
+Our main goal is to design an autonomous robot for the WRO Future Engineers challenge, capable of navigating a course while detecting and avoiding obstacles. The main design idea is a lightweight, custom 3D-printed chassis with strategically mounted sensors (Sharp IR for long-range detection) controlled by Arduino. This setup allows the robot to accurately sense its environment, make decisions in real-time, and complete the challenge efficiently.
+
+
 ## Our journey 
 Our journey started when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth, full of problems, mistakes, headaches, and even moments of 'Just leaving!' but what makes our jouney interesting are the moments of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and components but it also holds our feelings of our way through all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.<br>
 ## THE HURDLES <br>
@@ -74,10 +82,6 @@ Our chassis is a mixture of components made of lego blocks, 3D designs made by P
 |------|----------------|
 | ![images (1)](https://github.com/user-attachments/assets/334ceaf3-b745-4f87-bee2-9ad51a4ab8d4) | •  Definition: Acrylic (PMMA) is a lightweight, transparent plastic often used as a glass substitute. <br> • Key Properties: Rigid, smooth, lightweight, and visually clear. <br> • Usage in Our Robot: We used acrylic sheets for both the upper and lower decks to provide a stable, flat surface for mounting components. <br> • Advantages: Easy to cut, lightweight, gives a neat look, and provides good electrical insulation. <br> • Limitations: Brittle compared to PETG/PLA (can crack under heavy stress). |
 
-| Lego blocks | Specifications |
-|------|----------------|
-| ![images (2)](https://github.com/user-attachments/assets/07c342e6-875c-43b3-ba6e-4deda8ebb5fa) | <br> •  Definition: Standard LEGO Technic blocks used as modular mechanical components. <br> • Usage in Our Robot: We used LEGO parts to build the steering mechanism, as they provide precise alignment and easy prototyping. <br> • Advantages: Strong interlocking fit, reusable, lightweight, and allows quick adjustments during testing. |
-
 
 - Shape: rectangular stability
 - Size: fits robot components and competition rules
@@ -89,10 +93,10 @@ Our chassis is a mixture of components made of lego blocks, 3D designs made by P
 # Mounting
 
 - All components securely fixed on the chassis using screws, nuts, and 3D-printed brackets
-- Raspberry Pi mounted centrally for balance; camera at front for clear view
-- Sensors and IMU placed near center of gravity for accuracy
-- Motors aligned with wheels and pulleys for smooth motion
-- Wires neatly routed to avoid interference with moving parts
+- Raspberry Pi mounted centrally for balance; camera at front for clear view (Removed Later)
+- Sensors placed near center of gravity for accuracy
+- Motors aligned with wheels 
+- Wires routed to avoid interference with moving parts
 - Components accessible for easy maintenance and troubleshooting <br>
  Link for all the mounts and components-> [(Models)](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/tree/main/Models)
 
@@ -134,7 +138,7 @@ Reason for Selection :
 |---------|----------------|
 | <img src="https://github.com/user-attachments/assets/760067e4-7547-49fe-ae45-c57afee131b1" width="300" height="350"/>| • Model: Sharp GP2Y0A02YK0F (Long Range IR Sensor) <br> • Detection Range: 20 cm – 150 cm <br> • Output Type: Analog voltage (distance → voltage curve, non-linear) <br> • Operating Voltage: 4.5V – 5.5V (typ. 5V) <br> • Current Consumption: ~33 mA (typical) <br> • Response Time: ~39 ms <br> • Output Voltage Range: ~2.8V (near) to ~0.4V (far) <br> • Dimensions: ~29.5 × 13 × 21.6 mm <br> • Applications: Obstacle detection, distance measurement for navigation, wall following |
 
-Reason for Selection :
+Reason for Selection : We chose The Sharp IR long-range sensor for its reliable distance detection range of 20–150 cm, low power consumption, and compact size. Its stable analog output makes it easy to interface with Arduino or Raspberry Pi, and it performs more consistently than ultrasonic sensors on reflective or angled surfaces, making it well-suited for obstacle avoidance in our robot.
 
 
 
@@ -150,7 +154,7 @@ Reason for Selection :
 | Sensors | Sharp IR sensors(Long Range)(1300 Rs) | Rs 1300 |
 | Electrical Parts | Ardino Nano(800 Rs) <br> • L298(370 Rs) | Rs 1170 |
 | Mechanical Parts | Tyres, Gears, Chassis, Steering, Screws, Nuts, etc | Rs 140000 |
-| Total Cost | Rs 19990(Without The Components that were burnt) |
+| All the Components | Total Price | Rs 19990 (Without The Components that were burnt) |
 
 
 
@@ -160,12 +164,18 @@ Reason for Selection :
 
 ## Strategy for Open Challenge round
 
-Open Challenge Round, which is simpler and easier than The Obstacle avoiding Round and does not need very big algorithms, so we decided to use a very simple 'Stategy'. For the Open Challenge round we are using PD for keeping our Robot at a specific distance from the outer and the inner walls, using the IR sensors. The IR sensors help the Robot mantain a safe ditance from the inner and outer boundaries. The IR sensor sends data to the Arduino Nano and than the Arduino using PD sets the direction of the Robot through the Servo.
+Open Challenge Round, which is simpler and easier than The Obstacle avoiding Round and does not need very big algorithms, so we decided to use a very simple 'Strategy'. For the Open Challenge round we are using PD for keeping our Robot at a specific distance from the outer and the inner walls, using the IR sensors. The IR sensors help the Robot mantain a safe distance from the inner and outer boundaries. The IR sensor sends data to the Arduino Nano and than the Arduino using PD sets the direction via Servo Motor.
 
 ## Flow Diagram
 
-
 <img src="https://github.com/user-attachments/assets/65f93456-d40e-4ac2-99c5-209b61837fdf" width="300" height="350"/>
+
+## Code For Open Challenge Round
+
+
+# THE LAST WORDS
+
+At last, I would like to thank the organization and our department for giving us such a great opportunity for partiticpating in WRO 25. This competition helped us a lot in building ourself in amny fields. Special Thanks our mentors, institute, and friends for their guidance and support throughout this project. 
 
 
 
