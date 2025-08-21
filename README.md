@@ -31,7 +31,7 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 
 # TEAM INTRODUCTION
 ## Who are we?
-We are a team from Pakitan representing our country/institute. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the Future Engineers category. 
+We are the team Baitussalam from Pakistan representing Pakistan and our Institute Baitussalam. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the Future Engineers category. 
 
 ## Our Goal
 Our main goal is to design an autonomous robot for the WRO Future Engineers challenge, capable of navigating a course while detecting and avoiding obstacles. The main design idea is a lightweight, custom 3D-printed chassis with strategically mounted sensors (Sharp IR for long-range detection) controlled by Arduino. This setup allows the robot to accurately sense its environment, make decisions in real-time, and complete the challenge efficiently.
@@ -39,14 +39,14 @@ Our main goal is to design an autonomous robot for the WRO Future Engineers chal
 
 ## Our journey 
 Our journey started when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth, full of problems, mistakes, headaches, and even moments of 'Just leaving!' but what makes our jouney interesting are the moments of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and components but it also holds our feelings of our way through all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.<br>
-## THE HURDLES <br>
+# THE HURDLES <br>
 1. STEERING MECHANISM <br>
 Eveyting seems too easy and simple until you are hands-on with it. Although, it was not our first time participating in any robotics competition, we have partipated in many national competitions before such as NERC(For the last 4 years), Headstarts, Air university and many other but this competition hit different. Speaking faithfully, the journey had just barely begun that 'The Steering Mechanism' stood tall infront of us. We had thought of using 'Ackerman Steering Mechanism' which first seemed easy but after working on many protytypes we changed our mind and decided to use the simple 'Parallel Steering Mechanism' made with Lego Blocks, the story does not end here — the Parallel Steering Mechanism turned out to be unnecessary and offered no real benefit. Than at last, after a lot of research we finally dediced to use "Anti Akerman Steering Mechanism".
 
-2. The Pulley
-Just the first problem had finished that that the pulley said "Me too". After a few tests the The rod of pulley started making unnatural sounds and eventually the problem became inevatble. The pulley led us to get a duplicate of our base — a better one. and we had to change the whole of the mechanism.
+2. The Pulley<br>
+Just the first problem had finished that that the pulley said "Me too". After a few tests the The rod of pulley started making unnatural sounds and eventually the problem became inevatble. The pulley led us to get a duplicate of our base — a better one. and we had to change the whole of the mechanism.<br>
 
-We faced many problems, but a solution was always there just hiding behind our patience. 
+ We faced many problems, but a solution was always there just hiding behind our patience. <br>
 
 
 Now the National Championship is just a few days ahead and our team is full of hope. May Allah make us able of achieving what our hardwork and sacrifice really deserves. I mean the "The National Championship". It does not matter wheter you lose or win what matters is what you learnt, your hardwork. Therefore it is said, "It is not always about the destination, but the journey that you take"
@@ -145,7 +145,6 @@ Reason for Selection :
 
 ## Sensors Used
 
-
 | Sharp IR sensor(Long Range) | Specifications |
 |---------|----------------|
 | <img src="https://github.com/user-attachments/assets/760067e4-7547-49fe-ae45-c57afee131b1" width="300" height="350"/>| • Model: Sharp GP2Y0A02YK0F (Long Range IR Sensor) <br> • Detection Range: 20 cm – 150 cm <br> • Output Type: Analog voltage (distance → voltage curve, non-linear) <br> • Operating Voltage: 4.5V – 5.5V (typ. 5V) <br> • Current Consumption: ~33 mA (typical) <br> • Response Time: ~39 ms <br> • Output Voltage Range: ~2.8V (near) to ~0.4V (far) <br> • Dimensions: ~29.5 × 13 × 21.6 mm <br> • Applications: Obstacle detection, distance measurement for navigation, wall following |
@@ -185,7 +184,7 @@ Open Challenge Round, which is simpler and easier than The Obstacle avoiding Rou
 ## Code For Open Challenge Round
 
 
-# THE LAST WORDS
+# A MESSAGE OF THANKFULLNESS
 
 At last, I would like to thank the organization and our department for giving us such a great opportunity for partiticpating in WRO 25. This competition helped us a lot in building ourself in many fields. Special Thanks our mentors, institute, and friends for their guidance and support throughout this project. 
 
