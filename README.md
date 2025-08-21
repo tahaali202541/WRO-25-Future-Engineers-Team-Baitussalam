@@ -16,12 +16,14 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 5. [Engineering Principals](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#engineering-principals)
 
 # [Power and Sense Management](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#power-and-sense-managemnet)
-1.[POWER SOURCE](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#power-source)<br>
-2.[Sensors Used](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#sensors-used)<br>
-3.[Wiring Diagram](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#wiring-diagram)<br>
+1. [Power Source](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#power-source)
+2. [Sensors Used](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#sensors-used)
+3. [Wiring Diagram](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#wiring-diagram)
 
 # [Obstacle Management(Open challenge round)](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#obstacle-managementopen-challenge-round-1)
 1.[Strategy for Open Challenge round](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#strategy-for-open-challenge-round)
+
+
 
 # TEAM INTRODUCTION
 ## Who are we?
@@ -145,6 +147,107 @@ Reason for Selection :
 ## Strategy for Open Challenge round
 
 Open Challenge Round, which is simpler and easier than The Obstacle avoiding Round and does not need very big algorithms, so we decided to use a very simple 'Stategy'. For the Open Challenge round we are using PD for keeping our Robot at a specific distance from the outer and the inner walls, using the IR sensors. The IR sensors help the Robot mantain a safe ditance from the inner and outer boundaries. The IR sensor sends data to the Arduino Nano and than the Arduino using PD sets the direction of the Robot through the Servo.
+
+## Flow Diagram
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Open Challenge – Flow Diagram</title>
+  <style>
+    body{margin:0;font:16px/1.4 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b1220;color:#e7eefc;display:flex;justify-content:center;align-items:flex-start;min-height:100vh;padding:30px}
+    .card{background:#121a2b;border:1px solid rgba(255,255,255,.08);border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,.4);padding:20px;max-width:900px;width:100%}
+    h1{text-align:center;font-size:22px;margin:0 0 20px;color:#cfe0ff}
+    svg{width:100%;height:auto;display:block}
+    .note{margin-top:12px;color:#9fb0d3;font-size:14px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Open Challenge – Flow Diagram</h1>
+    <svg viewBox="0 0 700 900" role="img" aria-label="Flow diagram of Open Challenge PD control">
+      <defs>
+        <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+          <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/>
+        </filter>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="#5aa2ff" />
+        </marker>
+      </defs>
+
+      <g font-family="ui-sans-serif, system-ui" font-size="16" text-anchor="middle">
+        <!-- Start -->
+        <g transform="translate(350,60)" filter="url(#shadow)">
+          <ellipse cx="0" cy="0" rx="80" ry="32" fill="#1a2540" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="6">Start</text>
+        </g>
+
+        <!-- Read IR -->
+        <g transform="translate(350,150)" filter="url(#shadow)">
+          <polygon points="-120,-35 100,-35 120,35 -100,35" fill="#1e2a4a" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="0">Read IR Sensors</text>
+        </g>
+
+        <!-- Error -->
+        <g transform="translate(350,260)" filter="url(#shadow)">
+          <rect x="-150" y="-40" width="300" height="80" rx="10" fill="#1a2540" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="6">Calculate Error</text>
+        </g>
+
+        <!-- PD -->
+        <g transform="translate(350,370)" filter="url(#shadow)">
+          <rect x="-150" y="-40" width="300" height="80" rx="10" fill="#1a2540" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="-2">PD Control</text>
+          <text x="0" y="20">u = Kp·e + Kd·de/dt</text>
+        </g>
+
+        <!-- Servo -->
+        <g transform="translate(350,480)" filter="url(#shadow)">
+          <rect x="-150" y="-40" width="300" height="80" rx="10" fill="#1a2540" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="6">Adjust Steering (Servo)</text>
+        </g>
+
+        <!-- Motors -->
+        <g transform="translate(350,590)" filter="url(#shadow)">
+          <rect x="-150" y="-40" width="300" height="80" rx="10" fill="#1a2540" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="6">Move Forward (DC Motors)</text>
+        </g>
+
+        <!-- Decision -->
+        <g transform="translate(350,720)" filter="url(#shadow)">
+          <polygon points="0,-55 120,0 0,55 -120,0" fill="#1e2a4a" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="-2">Reached End?</text>
+        </g>
+
+        <!-- Stop -->
+        <g transform="translate(350,840)" filter="url(#shadow)">
+          <ellipse cx="0" cy="0" rx="80" ry="32" fill="#1a2540" stroke="#5aa2ff" stroke-width="2"/>
+          <text x="0" y="6">Stop</text>
+        </g>
+
+        <!-- Arrows -->
+        <g stroke="#5aa2ff" stroke-width="2.2" fill="none" marker-end="url(#arrow)">
+          <line x1="350" y1="92" x2="350" y2="115"/>
+          <line x1="350" y1="185" x2="350" y2="220"/>
+          <line x1="350" y1="300" x2="350" y2="330"/>
+          <line x1="350" y1="410" x2="350" y2="440"/>
+          <line x1="350" y1="520" x2="350" y2="550"/>
+          <line x1="350" y1="630" x2="350" y2="690"/>
+          <line x1="350" y1="775" x2="350" y2="808"/>
+          <!-- Loop back -->
+          <path d="M 290 720 C 140 720, 140 150, 320 150" />
+        </g>
+
+        <text x="366" y="780" fill="#9fb0d3">Yes</text>
+        <text x="155" y="430" fill="#9fb0d3">No → loop</text>
+      </g>
+    </svg>
+    <p class="note">Logic: Start → Read Sensors → Calculate Error → PD Control → Adjust Steering → Move Forward → Check End → Stop or Loop.</p>
+  </div>
+</body>
+</html>
 
 
 
