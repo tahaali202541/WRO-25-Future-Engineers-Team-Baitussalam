@@ -212,13 +212,209 @@ Open Challenge Round, which is simpler and easier than The Obstacle avoiding Rou
 
 ## Code For Open Challenge Round
 
+## HARD CODE
+
 Our coding for the Robot started from writing a hardcode for three laps. It's main purpose was to know our Robot's directions and precesion. It also helped us in knowing the exact figures of the sensor values and servo' direction. 
 
 
+#include <Servo.h>
+
+
+Servo myservo;
+
+
+
+
+int M_1 = 9;
+int M_2 = 10;
+int S1 = 11;
+int counter=0;
+
+
+void setup() {
+  pinMode(M_1,OUTPUT);
+  pinMode(M_2,OUTPUT);
+  pinMode(S1,OUTPUT);
+
+ myservo.attach(3);  
+ 
+  
+}
+
+void loop() {   
+  counter++;
+//first turn
+myservo.write(71.5);
+ delay(300);
+ forward(255);
+ delay(530);
+ myservo.write(120);
+ delay(200);
+ forward(255);
+ delay(550);
+
+//second turn
+ myservo.write(71.5);
+ delay(300);
+  forward(255);
+ delay(500);
+ myservo.write(120);
+ delay(200);
+forward(255);
+delay(550);
+//third turn
+myservo.write(71.5);
+ delay(300);
+ forward(255);
+ delay(530);
+ myservo.write(120);
+ delay(200);
+forward(255);
+delay(550);
+//fourth turn
+myservo.write(71.5);
+ delay(300);
+ forward(255);
+ delay(530);
+ myservo.write(120);
+ delay(200);
+forward(255);
+delay(550);
+  Stop();
+  while(1);
+}
+
+  
+
+void forward(int pwm){
+  analogWrite(S1,pwm);
+  digitalWrite(M_2,HIGH);
+  digitalWrite(M_1,LOW);
+}
+
+void backward(int pwm){
+analogWrite(S1,pwm);
+  digitalWrite(M_2,LOW);
+  digitalWrite(M_1,HIGH);
+}
+void Stop(){
+  digitalWrite(M_1,LOW);
+  digitalWrite(M_2,LOW);
+}
+
+
+## PD Control
+
+The second part of our coding journey was the PD control. We used it for keeping our Robot at a distance from both the boudaries
+
+#include <Servo.h>
+Servo myservo;                                             /////Servo Related
+
+ 
+ 
+
+int M_1 = 9;
+int M_2 = 10;                     /////Motor Pins
+int S1 = 11;
+
+double kp = 1.5;
+double kd = 10;
+
+double  BaseAngle = 71.5;                    ///////////Wall Following Related
+double MinAngle = 20;
+double MaxAngle = 120;
+
+int lastError = 0;
+
+
+#define front_value  AnDg(0)
+  #define right_value AnDg(1)                      ///Semnsor Related
+  #define left_value  AnDg(2)
+
+
+int error = 0;
+
+void setup() {
+  pinMode(M_1,OUTPUT);
+  pinMode(M_2,OUTPUT);
+  pinMode(S1,OUTPUT);
+
+  
+
+myservo.attach(3); 
+  
+
+ Serial.begin(9600);
+ 
+   
+}
+
+void loop() {   
+  
+unsigned int position = AnDg(1);
+ 
+
+  int error = position - 100;
+  
+ int derivative = error - lastError;
+ lastError = error;
+
+  int AngleChange = kp * error+ kd * (derivative);
+    
+
+int Rotate =  BaseAngle - AngleChange;
+ if (Rotate> MaxAngle ) {Rotate = MaxAngle; }
+ if (Rotate< MinAngle ) {Rotate = MinAngle; }
+
+MotorControl(200,Rotate);
+
+
+ 
+}
+
+
+void MotorControl(int pwm ,int ServoUpdate){
+
+   
+   myservo.write(ServoUpdate);
+   
+
+
+   analogWrite(S1,pwm);
+   digitalWrite(M_2,HIGH);
+   digitalWrite(M_1,LOW);
+
+}
+
+
+
+
+  
+void forward(int pwm){
+  analogWrite(S1,pwm);
+  digitalWrite(M_2,HIGH);
+  digitalWrite(M_1,LOW);
+}
+
+void backward(int pwm){
+analogWrite(S1,pwm);
+  digitalWrite(M_2,LOW);
+  digitalWrite(M_1,HIGH);
+}
+void Stop(){
+  digitalWrite(M_1,LOW);
+  digitalWrite(M_2,LOW);
+}
+int AnDg(int x){
+  if(  x==0){return((map(analogRead(A0),0,1024,0,255)+map(analogRead(A0),150,600,0,255))/2);}
+ else if(  x==1){return((map(analogRead(A1),0,1024,0,255)+map(analogRead(A1),150,600,0,255))/2);}
+ else if(  x==2){return((map(analogRead(A2),0,1024,0,255)+map(analogRead(A2),150,600,0,255))/2);}
+}
 
 # A MESSAGE OF THANKFULLNESS
 
 At last, I would like to thank the organization and our department for giving us such a great opportunity for partiticpating in WRO 25. This competition helped us a lot in building ourself in many fields. Special Thanks our mentors, institute, and friends for their guidance and support throughout this project. 
+
 
 
 
