@@ -6,9 +6,10 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 # Content Table
 ## [TEAM INTRODUCTION](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
 1. [WHO ARE WE?](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#who-are-we)
-2. [The Team]()
-3. [Our Goal](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-goal) 
-4. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-journey)
+2. [The Team](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam/blob/main/README.md#the-team)
+3. [Our Goal](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-goal)
+4. [The Robot]()
+5. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-journey)
 
 
 ## [Mobility Management](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#mobility-management-1)
@@ -63,6 +64,20 @@ Description: I am sikandar and I am currently pursueing my O-Levels at the DOCE 
 ## Our Goal
 Our main goal is to design an autonomous robot for the WRO Future Engineers challenge, capable of navigating a course while detecting and avoiding obstacles. The main design idea is a lightweight, custom 3D-printed chassis with strategically mounted sensors (Sharp IR for long-range detection) controlled by Arduino. This setup allows the robot to accurately sense its environment, make decisions in real-time, and complete the challenge efficiently.
 
+
+## The Robot
+
+|Top|Bottom|
+|-----|------|
+| ![Top](https://github.com/user-attachments/assets/38d1724f-c33d-436c-8eca-4028bd66f58c) | ![Bottom](https://github.com/user-attachments/assets/40e414db-8712-440c-a2e0-a45d6f344933) |
+
+|Front|Back|
+|-----|------|
+| ![Front](https://github.com/user-attachments/assets/d7349769-f3c7-467b-89c1-d72ba6813da7) | ![Back](https://github.com/user-attachments/assets/b3bfcd2f-3a38-48a8-adbd-29dcc36f5f2a) |
+
+|Right |Left|
+|-----|------|
+| ![Right](https://github.com/user-attachments/assets/0a3c763e-031b-49ca-ba1f-fecbd6fb716b) |![Left](https://github.com/user-attachments/assets/7c6192d9-ffe1-47f6-878d-184d15edde25) |
 
 ## Our journey 
 Our journey started when we were first informed about our participation in WRO 25(Future Engineers), by our management team. Our journey is not quite smooth, full of problems, mistakes, headaches, and even moments of 'Just leaving!' but what makes our jouney interesting are the moments of success, seeing the hardwork pay-off, and at last 'The Victory'. This repository not only holds the designs, codes, and components but it also holds our feelings of our way through all the stages, 'THE NATIONAL CHAMPIONSHIP' and One day 'INTERNATIONAL CHAMPIONSHIP' too.<br>
