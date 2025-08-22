@@ -37,9 +37,9 @@ We are the team Baitussalam from Pakistan representing Pakistan and our Institut
 ## The Team
 ## Taha Umer (Team Lead)
 <img src="https://github.com/user-attachments/assets/3a272030-64e8-4e51-820b-8162fb65a3fb" width="500" height="650"/> <br>
-Age:   <br>
-College:    <br>
-Description:  <br>
+Age: 17  <br>
+College: DOCE Baitussalam Talagang  <br>
+Description: I am Taha Umer, Currently pursuing my A-levels at DOCE Baitussalam Talagang. I have been into Robotics for a long time and I think this is what makes me the "Leader". I have been to and won many robotics competitions like NERC, HSSRC, and many others. <br>
 
 
 
@@ -107,7 +107,7 @@ Anti-Ackermann steering is a geometry where the outer wheel turns more than the 
 
 # Chassis
 
-Our chassis is a mixture of components made of lego blocks, 3D designs made by PETG as well as PLA, and also Acryllic sheet espically designed for stability and modularity. It features a rear-wheel drive system powered by DC gear motors for consistent motion. For steering, we implemented a parallel steering mechanism driven by the MG996R servo, ensuring precise and predictable turns. All sensors are strategically mounted to provide optimal track visibility, and the overall design maintains a low center of gravity for balanced performance.
+Our chassis is a mixture of components made of (Previous design)-(3D designs made by PETG as well as PLA), and also Acryllic sheet especally designed for stability and modularity. It features a rear-wheel drive system powered by DC gear motors for consistent motion. For steering, we implemented a parallel steering mechanism driven by the MG996R servo, ensuring precise and predictable turns. All sensors are strategically mounted to provide optimal track visibility, and the overall design maintains a low center of gravity for balanced performance.
 
 - Material: lightweight and strong usnig parts made with PETG and PLA, Lego blocks, and Acrallyic sheet
 
@@ -183,7 +183,7 @@ Reason for Selection : We chose The Sharp IR long-range sensor for its reliable 
 
 
 ## Wiring Diagram
-![visual circuit diagram](https://github.com/user-attachments/assets/1ea23832-5366-4719-8e31-d01cfa2f2ce0)
+![visual circuit diagram](https://github.com/user-attachments/assets/a00dfd03-edea-40e6-8829-968f5b9d938a)
 
 ## Bill for Materials
 
