@@ -6,8 +6,9 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 # Content Table
 ## [TEAM INTRODUCTION](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#our-journey-)
 1. [WHO ARE WE?](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#who-are-we)
-2. [Our Goal](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-goal) 
-3. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-journey)
+2. [The Team]()
+3. [Our Goal](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-goal) 
+4. [Our Journey](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam#our-journey)
 
 
 ## [Mobility Management](https://github.com/tahaali202541/WRO-25-Future-Engineers-Team-Baitussalam?tab=readme-ov-file#mobility-management-1)
@@ -32,6 +33,32 @@ This repository presents our documentation of the WRO 25(Future Engineers).
 # TEAM INTRODUCTION
 ## Who are we?
 We are the team Baitussalam from Pakistan representing Pakistan and our Institute Baitussalam. Our team consists of three members – Taha Umer, Zulqarnain, and Sikandar.It is our first time participating in WRO. Together, we focus on different parts of the project such as coding, mechanical design, and documentation. By combining our efforts, we aim to build a functional and well-prepared robot for the Future Engineers category. 
+
+## The Team
+## Taha Umer (Team Lead)
+<img src="https://github.com/user-attachments/assets/3a272030-64e8-4e51-820b-8162fb65a3fb" width="500" height="650"/> <br>
+Age:   <br>
+College:    <br>
+Description:  <br>
+
+
+
+## Zulqarnain
+<img src="https://github.com/user-attachments/assets/3fae8864-ac81-4b60-aff8-b9eaf62b9e01"  width="500" height="650"/>   <br>
+Age: 17   <br>
+School: DOCE Jamia Baitussalam   <br>
+Description: I am Zulqarnain, currently studying at the DOCE Jamia Baitussalam Talagang. I like challenges and solving maths problems is a kind of challenge for me, I am also fond of palying football.   <br>
+
+## Sikandar
+
+<img src="https://github.com/user-attachments/assets/4cacc449-972e-467d-8475-27e01a8c0747"  width="500" height="650"/>   <br>
+Age: 16   <br>
+School: DOCE Jamia Baitussalam   <br>
+Description: I am sikandar and I am currently pursueing my O-Levels at the DOCE Baitussalam Talagang. It is my first time participating in WRO. My hobbies are programming, boxing(Not a good combination), and Robotics. I love to play football too.   <br>
+
+
+
+
 
 ## Our Goal
 Our main goal is to design an autonomous robot for the WRO Future Engineers challenge, capable of navigating a course while detecting and avoiding obstacles. The main design idea is a lightweight, custom 3D-printed chassis with strategically mounted sensors (Sharp IR for long-range detection) controlled by Arduino. This setup allows the robot to accurately sense its environment, make decisions in real-time, and complete the challenge efficiently.
@@ -141,7 +168,7 @@ I = P_elec / Voltage
 ## POWER SOURCE
 | Battery | Specifications |
 |---------|----------------|
-|  |  |
+|<img src="https://github.com/user-attachments/assets/8b19d19c-e96c-4e91-9d14-65c8530fad02" width="300" height="350"/> | •  Brand	JSUMO <br> • Capacity(mAh)	450 mah <br> • Voltage(V)	11.1V (Full Charge 12.6V) <br> • Discharge Rate (C)	25 <br> • Max Burst discharge Rate (C)	50 <br> • Cell Configuration	3S1P (3 Serial, 1 Parallel) <br> • Net <br> • Weight	46.5 grams <br> • Length	40.2mm <br> • Width	24.3mm <br> • Height	24.2mm |
 
 Reason for Selection : 
 
@@ -162,7 +189,7 @@ Reason for Selection : We chose The Sharp IR long-range sensor for its reliable 
 
 | Category | Components | Total Price |
 |----------|-------|------|
-| Power Supply  | • Battery  <br> • Buck Convertor(320 Rs) | RS 320 |
+| Power Supply  | • Battery <br> • Buck Convertor(320 Rs) | RS 320 |
 | Motors | • DC Motor(2300 Rs) <br> • Servo Motor(Rs 900)| RS 3200 |  
 | Sensors | Sharp IR sensors(Long Range)(1300 Rs) | Rs 1300 |
 | Electrical Parts | Ardino Nano(800 Rs) <br> • L298(370 Rs) | Rs 1170 |
@@ -184,6 +211,9 @@ Open Challenge Round, which is simpler and easier than The Obstacle avoiding Rou
 <img src="https://github.com/user-attachments/assets/65f93456-d40e-4ac2-99c5-209b61837fdf" width="300" height="350"/>
 
 ## Code For Open Challenge Round
+
+Our coding for the Robot started from writing a hardcode for three laps. It's main purpose was to know our Robot's directions and precesion. It also helped us in knowing the exact figures of the sensor values and servo' direction. 
+
 
 
 # A MESSAGE OF THANKFULLNESS
