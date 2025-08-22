@@ -75,6 +75,8 @@ We chose this servo motor for its robust performance and durability. Its high to
 # Steering Mechanism
 ## Anti-Ackerman Steering Mechanism
 
+<img src="https://github.com/user-attachments/assets/2eed7312-cfdc-4949-8469-4f854c461ee6" width="300" height="350"/> <br>
+Anti-Ackermann steering is a geometry where the outer wheel turns more than the inner wheel, opposite of standard Ackermann. In the context of WRO, it can be suitable for robots designed with a focus on speed. This mechanism helps reduce tire scrub and rolling resistance, allowing the robot to accelerate faster and move more efficiently in straight runs. It also provides better stability during high-speed turns, as the slip angle of the outer wheel improves grip. While it sacrifices some low-speed precision, Anti-Ackermann steering can be advantageous in speed-oriented designs where covering distance quickly is the main priority.
 
 # Chassis
 
