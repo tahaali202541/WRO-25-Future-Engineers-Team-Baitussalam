@@ -232,199 +232,199 @@ Open Challenge Round, which is simpler and easier than The Obstacle avoiding Rou
 Our coding for the Robot started from writing a hardcode for three laps. It's main purpose was to know our Robot's directions and precesion. It also helped us in knowing the exact figures of the sensor values and servo' direction. 
 
 
-#include <Servo.h>
+#include <Servo.h> <br>
 
 
-Servo myservo;
+Servo myservo;<br>
 
 
 
 
-int M_1 = 9;
-int M_2 = 10;
-int S1 = 11;
-int counter=0;
+int M_1 = 9;<br>
+int M_2 = 10;<br>
+int S1 = 11;<br>
+int counter=0;<br>
 
 
-void setup() {
-  pinMode(M_1,OUTPUT);
-  pinMode(M_2,OUTPUT);
-  pinMode(S1,OUTPUT);
+void setup() {<br>
+  pinMode(M_1,OUTPUT);<br>
+  pinMode(M_2,OUTPUT);<br>
+  pinMode(S1,OUTPUT);<br>
 
- myservo.attach(3);  
+ myservo.attach(3);  <br>
  
   
 }
 
-void loop() {   
-  counter++;
-//first turn
-myservo.write(71.5);
- delay(300);
- forward(255);
- delay(530);
- myservo.write(120);
- delay(200);
- forward(255);
- delay(550);
+void loop() {   <br>
+  counter++;<br>
+//first turn<br>
+myservo.write(71.5);<br>
+ delay(300);<br>
+ forward(255);<br>
+ delay(530);<br>
+ myservo.write(120);<br>
+ delay(200);<br>
+ forward(255);<br>
+ delay(550);<br>
 
-//second turn
- myservo.write(71.5);
- delay(300);
-  forward(255);
- delay(500);
- myservo.write(120);
- delay(200);
-forward(255);
-delay(550);
-//third turn
-myservo.write(71.5);
- delay(300);
- forward(255);
- delay(530);
- myservo.write(120);
- delay(200);
-forward(255);
-delay(550);
-//fourth turn
-myservo.write(71.5);
- delay(300);
- forward(255);
- delay(530);
- myservo.write(120);
- delay(200);
-forward(255);
-delay(550);
-  Stop();
-  while(1);
-}
+//second turn<br>
+ myservo.write(71.5);<br>
+ delay(300);<br>
+  forward(255);<br>
+ delay(500);<br>
+ myservo.write(120);<br>
+ delay(200);<br>
+forward(255);<br>
+delay(550);<br>
+//third turn<br>
+myservo.write(71.5);<br>
+ delay(300);<br>
+ forward(255);<br>
+ delay(530);<br>
+ myservo.write(120);<br>
+ delay(200);<br>
+forward(255);<br>
+delay(550);<br>
+//fourth turn<br>
+myservo.write(71.5);<br>
+ delay(300);<br>
+ forward(255);<br>
+ delay(530);<br>
+ myservo.write(120);<br>
+ delay(200);<br>
+forward(255);<br>
+delay(550);<br>
+  Stop();<br>
+  while(1);<br>
+}<br>
 
   
 
-void forward(int pwm){
-  analogWrite(S1,pwm);
-  digitalWrite(M_2,HIGH);
-  digitalWrite(M_1,LOW);
-}
+void forward(int pwm){<br>
+  analogWrite(S1,pwm);<br>
+  digitalWrite(M_2,HIGH);<br>
+  digitalWrite(M_1,LOW);<br>
+}<br>
 
-void backward(int pwm){
-analogWrite(S1,pwm);
-  digitalWrite(M_2,LOW);
-  digitalWrite(M_1,HIGH);
-}
-void Stop(){
-  digitalWrite(M_1,LOW);
-  digitalWrite(M_2,LOW);
-}
+void backward(int pwm){<br>
+analogWrite(S1,pwm);<br>
+  digitalWrite(M_2,LOW);<br>
+  digitalWrite(M_1,HIGH);<br>
+}<br>
+void Stop(){<br>
+  digitalWrite(M_1,LOW);<br>
+  digitalWrite(M_2,LOW);<br>
+}<br>
 
 
 ## PD Control
 
 The second part of our coding journey was the PD control. We used it for keeping our Robot at a distance from both the boudaries
 
-#include <Servo.h>
-Servo myservo;                                             /////Servo Related
+#include <Servo.h><br>
+Servo myservo;                                     /////Servo Related<br>
 
  
  
 
-int M_1 = 9;
-int M_2 = 10;                     /////Motor Pins
-int S1 = 11;
+int M_1 = 9;<br>
+int M_2 = 10;                     /////Motor Pins<br>
+int S1 = 11;<br>
 
-double kp = 1.5;
-double kd = 10;
+double kp = 1.5;<br>
+double kd = 10;<br>
 
-double  BaseAngle = 71.5;                    ///////////Wall Following Related
-double MinAngle = 20;
-double MaxAngle = 120;
+double  BaseAngle = 71.5;                    ///////////Wall Following Related<br>
+double MinAngle = 20;<br>
+double MaxAngle = 120;<br>
 
-int lastError = 0;
-
-
-#define front_value  AnDg(0)
-  #define right_value AnDg(1)                      ///Semnsor Related
-  #define left_value  AnDg(2)
+int lastError = 0;<br>
 
 
-int error = 0;
+#define front_value  AnDg(0)<br>
+  #define right_value AnDg(1)                      ///Semnsor Related<br>
+  #define left_value  AnDg(2)<br>
 
-void setup() {
-  pinMode(M_1,OUTPUT);
-  pinMode(M_2,OUTPUT);
-  pinMode(S1,OUTPUT);
+
+int error = 0;<br>
+
+void setup() {<br>
+  pinMode(M_1,OUTPUT);<br>
+  pinMode(M_2,OUTPUT);<br>
+  pinMode(S1,OUTPUT);<br>
 
   
 
-myservo.attach(3); 
+myservo.attach(3); <br>
   
 
- Serial.begin(9600);
+ Serial.begin(9600);<br>
  
    
-}
+}<br>
 
-void loop() {   
+void loop() {<br>   
   
-unsigned int position = AnDg(1);
+unsigned int position = AnDg(1);<br>
  
 
-  int error = position - 100;
+  int error = position - 100;<br>
   
- int derivative = error - lastError;
- lastError = error;
+ int derivative = error - lastError;<br>
+ lastError = error;<br>
 
-  int AngleChange = kp * error+ kd * (derivative);
+  int AngleChange = kp * error+ kd * (derivative);<br>
     
 
-int Rotate =  BaseAngle - AngleChange;
- if (Rotate> MaxAngle ) {Rotate = MaxAngle; }
- if (Rotate< MinAngle ) {Rotate = MinAngle; }
+int Rotate =  BaseAngle - AngleChange;<br>
+ if (Rotate> MaxAngle ) {Rotate = MaxAngle; }<br>
+ if (Rotate< MinAngle ) {Rotate = MinAngle; }<br>
 
-MotorControl(200,Rotate);
+MotorControl(200,Rotate);<br>
 
 
  
-}
+}<br>
 
 
-void MotorControl(int pwm ,int ServoUpdate){
+void MotorControl(int pwm ,int ServoUpdate){<br>
 
    
-   myservo.write(ServoUpdate);
+   myservo.write(ServoUpdate);<br>
    
 
 
-   analogWrite(S1,pwm);
-   digitalWrite(M_2,HIGH);
-   digitalWrite(M_1,LOW);
+   analogWrite(S1,pwm);<br>
+   digitalWrite(M_2,HIGH);<br>
+   digitalWrite(M_1,LOW);<br>
 
-}
+}<br>
 
 
 
 
   
-void forward(int pwm){
-  analogWrite(S1,pwm);
-  digitalWrite(M_2,HIGH);
-  digitalWrite(M_1,LOW);
-}
+void forward(int pwm){<br>
+  analogWrite(S1,pwm);<br>
+  digitalWrite(M_2,HIGH);<br>
+  digitalWrite(M_1,LOW);<br>
+}<br>
 
-void backward(int pwm){
-analogWrite(S1,pwm);
-  digitalWrite(M_2,LOW);
-  digitalWrite(M_1,HIGH);
-}
-void Stop(){
-  digitalWrite(M_1,LOW);
-  digitalWrite(M_2,LOW);
-}
-int AnDg(int x){
-  if(  x==0){return((map(analogRead(A0),0,1024,0,255)+map(analogRead(A0),150,600,0,255))/2);}
- else if(  x==1){return((map(analogRead(A1),0,1024,0,255)+map(analogRead(A1),150,600,0,255))/2);}
- else if(  x==2){return((map(analogRead(A2),0,1024,0,255)+map(analogRead(A2),150,600,0,255))/2);}
-}
+void backward(int pwm){<br>
+analogWrite(S1,pwm);<br>
+  digitalWrite(M_2,LOW);<br>
+  digitalWrite(M_1,HIGH);<br>
+}<br>
+void Stop(){<br>
+  digitalWrite(M_1,LOW);<br>
+  digitalWrite(M_2,LOW);<br>
+}<br>
+int AnDg(int x){<br>
+  if(  x==0)<br>{return((map(analogRead(A0),0,1024,0,255)+map(analogRead(A0),150,600,0,255))/2);}<br>
+ else if(  x==1)<br>{return((map(analogRead(A1),0,1024,0,255)+map(analogRead(A1),150,600,0,255))/2);}<br>
+ else if(  x==2)<br>{return((map(analogRead(A2),0,1024,0,255)+map(analogRead(A2),150,600,0,255))/2);}<br>
+}<br>
 
 # A MESSAGE OF THANKFULLNESS
 
